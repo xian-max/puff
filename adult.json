@@ -1,0 +1,199 @@
+{
+	"spider": "./custom_spider.jar;md5;07cc5f1a219863d67f53c737911f3226",
+	"wallpaper": "https://gao.chuqiuyu.tk",
+	"sites": [
+		{
+			"key": "HSCK",
+			"name": "黄仓",
+			"type": 3,
+			"api": "csp_Hsck",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "Avss",
+			"name": "Avss",
+			"type": 3,
+			"api": "csp_Avss",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "哔哩",
+			"name": "哔哩",
+			"type": 3,
+			"api": "csp_Bili",
+			"searchable": 1,
+			"changeable": 0,
+			"style": {
+				"type": "rect",
+				"ratio": 1.433
+			},
+			"ext": {
+				"json": "https://fongmi.cachefly.net/FongMi/CatVodSpider/main/json/bili.json",
+				"type": "帕梅拉#太极拳#广场舞#演唱会",
+				"cookie": "buvid3=7B667E34-7572-EC51-D5C1-41E2FE26AC0326984infoc; b_nut=1698910227; buvid4=A72E2330-03B9-DEA8-0D66-133F988618EE26984-023110215-cSrFUaBpzyGgUnynCF6U9g%3D%3D; _uuid=FEDC1E75-762F-2D5D-E86B-10F2EBDB23F7529963infoc; buvid_fp=1a08a5a3b66622fc8b10983efe1078b5; enable_web_push=DISABLE; header_theme_version=CLOSE; SESSDATA=29382610%2C1714462279%2Cd2d4a%2Ab2CjAVUokQJI1j8KFriL_EhsxI9TDdw7ejevL4zhvbVRJsUewtPwd97tbH-O63NnhIQDMSVjUzMnFuTjhVTjRDdXR0empsVzJZNFd1aV9icnN5WXY5VVJ5aFo2SXpWYjBKTTVaNXl0ejZYYnNmSmVEYlRLWUYxTjNiUllRN3h6b2pHOERRd0RvOTd3IIEC; bili_jct=be2318358c9dc6eddbf024820676ab8f; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; sid=6c6cg4q3; CURRENT_FNVAL=4048; rpdid=|(k|~Rukll)m0J'uYm)mu|kmk; CURRENT_QUALITY=80; home_feed_column=5; PVID=1; innersign=0; b_lsid=AA1010DE19_18CDF624561; bsource=search_baidu; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDQ4MTQwNDMsImlhdCI6MTcwNDU1NDc4MywicGx0IjotMX0.XA7aMcZ2GyRfDvOlXMi7bkSUXxyJqFgWJlbpdY1qaao; bili_ticket_expires=1704813983; bp_video_offset_536115280=882370987678498884; browser_resolution=1536-516"
+			}
+		},
+		{
+			"key": "AoAo",
+			"name": "AoAo",
+			"type": 3,
+			"api": "csp_AoAo",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "十八里",
+			"name": "十八里",
+			"type": 3,
+			"api": "csp_ShiBali",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "咪咪",
+			"name": "咪咪",
+			"type": 3,
+			"api": "csp_Mimiju",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "泥巴",
+			"name": "泥巴",
+			"type": 3,
+			"api": "csp_NiNi",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "量子",
+			"name": "量子",
+			"type": 0,
+			"api": "https://cj.lziapi.com/api.php/provide/vod/at/xml/",
+			"searchable": 1,
+			"changeable": 1,
+			"categories": [
+				"伦理片"
+			]
+		},
+		{
+			"key": "非凡",
+			"name": "非凡",
+			"type": 0,
+			"api": "http://cj.ffzyapi.com/api.php/provide/vod/at/xml/",
+			"searchable": 1,
+			"changeable": 1,
+			"categories": [
+				"伦理片"
+			]
+		},
+		{
+			"key": "玩偶",
+			"name": "玩偶",
+			"type": 3,
+			"api": "csp_Doll",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.309
+			}
+		},
+		{
+			"key": "18AV",
+			"name": "18AV",
+			"type": 3,
+			"api": "csp_Eighteen",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.485
+			}
+		},
+		{
+			"key": "18A貓",
+			"name": "18A貓",
+			"type": 3,
+			"api": "https://fongmi.cachefly.net/FongMi/CatVodOpen/main/open/18a_open.js",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.485
+			}
+		},
+		{
+			"key": "Jable",
+			"name": "Jable",
+			"type": 3,
+			"api": "csp_Jable",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.77
+			}
+		},
+		{
+			"key": "MissAV",
+			"name": "MissAV",
+			"type": 3,
+			"api": "csp_Miss",
+			"searchable": 1,
+			"style": {
+				"type": "rect",
+				"ratio": 1.777
+			}
+		},
+		{
+			"key": "push_agent",
+			"name": "推送",
+			"type": 3,
+			"api": "csp_Push",
+			"searchable": 1,
+			"changeable": 0
+		}
+	],
+	"lives": [
+		{
+			"name": "live",
+			"type": 0,
+			"url": "./zb.txt",
+			"playerType": 1,
+			"ua": "okhttp/3.15"
+		}
+	],
+	"rules": [
+		{
+			"name": "量子廣告",
+			"hosts": [
+				"vip.lz",
+				"hd.lz"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+			]
+		},
+		{
+			"name": "非凡廣告",
+			"hosts": [
+				"vip.ffzy",
+				"hd.ffzy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+			]
+		},
+		{
+			"name": "Avss广告",
+			"hosts": [
+				"jkunbf.com",
+				"jkunbf"
+			],
+			"regex": [
+				"#EXTINF:[0-9.]+,[^\\r*\\n*]*\\r*\\n*/20231219/[^.]+\\.ts"
+			]
+		}
+	]
+}
