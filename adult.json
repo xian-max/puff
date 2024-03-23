@@ -33,9 +33,7 @@
 				"type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "buvid3=7B667E34-7572-EC51-D5C1-41E2FE26AC0326984infoc; b_nut=1698910227; buvid4=A72E2330-03B9-DEA8-0D66-133F988618EE26984-023110215-cSrFUaBpzyGgUnynCF6U9g%3D%3D; _uuid=FEDC1E75-762F-2D5D-E86B-10F2EBDB23F7529963infoc; buvid_fp=1a08a5a3b66622fc8b10983efe1078b5; enable_web_push=DISABLE; header_theme_version=CLOSE; SESSDATA=29382610%2C1714462279%2Cd2d4a%2Ab2CjAVUokQJI1j8KFriL_EhsxI9TDdw7ejevL4zhvbVRJsUewtPwd97tbH-O63NnhIQDMSVjUzMnFuTjhVTjRDdXR0empsVzJZNFd1aV9icnN5WXY5VVJ5aFo2SXpWYjBKTTVaNXl0ejZYYnNmSmVEYlRLWUYxTjNiUllRN3h6b2pHOERRd0RvOTd3IIEC; bili_jct=be2318358c9dc6eddbf024820676ab8f; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; sid=6c6cg4q3; rpdid=|(k|~Rukll)m0J'uYm)mu|kmk; home_feed_column=5; CURRENT_BLACKGAP=0; CURRENT_FNVAL=4048; browser_resolution=1536-738; bsource=search_baidu; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDU0MDY1NzEsImlhdCI6MTcwNTE0NzMxMSwicGx0IjotMX0.rAKN1F0YA9drA034ljuBmzNzfkC5B61fQdE3SFb0oHc; bili_ticket_expires=1705406511; bp_video_offset_536115280=886035350717202439; CURRENT_QUALITY=80; b_lsid=5C54B746_18D038D3DCC; PVID=1"
 			}
-		},
-		{"key":"kyB","name":"快鹰|采集","style":{"type":"rect","ratio":0.85},"type":1,"api":"http://savviuux.hk3.345888.xyz.cdn.cloudflare.net/api.php/provide/vod/?ac=list","searchable":1,"quickSearch":1,"playUrl":"json:https://stray.serv00.net/ky.php?url="},
-		{
+		},{
 			"key": "玩偶",
 			"name": "玩偶",
 			"type": 3,
