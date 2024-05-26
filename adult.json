@@ -73,6 +73,15 @@
 			"filterable": 0
 		},
 		{
+			"key": "laoya",
+			"name": "laoya",
+			"type": 0,
+			"api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
 			"key": "push_agent",
 			"name": "推送",
 			"type": 3,
