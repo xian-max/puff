@@ -1,7 +1,8 @@
 {
 	"spider": "./custom_spider.jar;md5;61a785a280e8924a72463c455b3e4919",
 	"wallpaper": "https://gao.chuqiuyu.tk",
-	"sites": [{
+	"sites": [
+		{
 			"key": "HSCK",
 			"name": "黄仓",
 			"type": 3,
@@ -46,6 +47,78 @@
 			}
 		},
 		{
+			"key": "91md",
+			"name": "91md",
+			"type": 1,
+			"api": "https://91md.me/api.php/provide/vod/from/mdm3u8/",
+			"tag": "qb,tj,rm",
+			"categories": []
+		},
+		{
+			"key": "美少女",
+			"name": "美少女",
+			"type": 0,
+			"api": "https://www.msnii.com/api/xml.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
+			"key": "环亚",
+			"name": "环亚",
+			"type": 0,
+			"api": "http://wmcj8.com/inc/sapi.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "饮水机2",
+			"name": "饮水机",
+			"type": 0,
+			"api": "https://www.xrbsp.com/api/xml.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
+			"key": "小湿妹",
+			"name": "小湿妹",
+			"type": 0,
+			"api": "https://www.afasu.com/api/xml.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "香奶儿",
+			"name": "香奶儿",
+			"type": 0,
+			"api": "https://www.gdlsp.com/api/xml.php",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1
+		},
+		{
+			"key": "探探",
+			"name": "探探",
+			"type": 1,
+			"api": "https://apittzy.com/api.php/provide/vod/?ac=list",
+			"playUrl": "https://jiexi.ttbfp1.com/m3u8/?url=",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
+			"key": "9号资源",
+			"name": "9号资源",
+			"type": 0,
+			"api": "http://fhapi9.com/api.php/provide/vod/at/xml/",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
 			"key": "push_agent",
 			"name": "推送",
 			"type": 3,
@@ -54,14 +127,17 @@
 			"changeable": 0
 		}
 	],
-	"lives": [{
-		"name": "live",
-		"type": 0,
-		"url": "./zb.txt",
-		"playerType": 1,
-		"ua": "okhttp/3.15"
-	}],
-	"rules": [{
+	"lives": [
+		{
+			"name": "live",
+			"type": 0,
+			"url": "./zb.txt",
+			"playerType": 1,
+			"ua": "okhttp/3.15"
+		}
+	],
+	"rules": [
+		{
 			"name": "量子廣告",
 			"hosts": [
 				"vip.lz",
