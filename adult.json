@@ -119,6 +119,15 @@
 			"filterable": 0
 		},
 		{
+			"key": "lsp",
+			"name": "lsp",
+			"type": 0,
+			"api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
 			"key": "push_agent",
 			"name": "推送",
 			"type": 3,
