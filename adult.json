@@ -33,16 +33,6 @@
 				"type": "帕梅拉#太极拳#广场舞#演唱会",
 				"cookie": "buvid3=E955C7E6-7CEC-52F2-3C0E-E882D83D8B7A26140infoc; b_nut=1711161826; i-wanna-go-back=-1; b_ut=7; _uuid=964B45AB-2AA1-DB86-872C-DD65B33137D525035infoc; enable_web_push=DISABLE; buvid4=4641E540-ADA0-A180-BCF1-1A4ECA3D496826958-024032302-WtK%2BdwcV6CT9%2BJGCtIqZsrShU36oFOrg31Nr1khhjvUcX2p9a8vgcJndVFgEWWzM; home_feed_column=5; CURRENT_FNVAL=4048; rpdid=0zbfVFZH1s|j2OmQ3Jc|hWH|3w1RNRmw; header_theme_version=CLOSE; fingerprint=400aff8fa15dfd5ed5b0ca5feeb373fc; buvid_fp_plain=undefined; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; CURRENT_QUALITY=80; buvid_fp=400aff8fa15dfd5ed5b0ca5feeb373fc; SESSDATA=4a97d567%2C1728444172%2C4df68%2A42CjAciBSRjh9qCkC2CN1K5p0Id-UG4AH3ejuZlJjsSeNEgcAIc0WpVZPzQsZ21oYAajcSVjBXNWtDOVQ1c1JmRkV4a1g4M3ltZzRTUlpqWGZGRUVLakk2YmV6VFlWRTVCeGw2eG1xcjF6T2c5Z1pYZE9Ta1FKT3hPc3Z6UDNaUGd5RnFPMDJ0UHJ3IIEC; bili_jct=ffd1d042f4ceab2936709af452bd448a; FEED_LIVE_VERSION=V_HEADER_LIVE_NO_POP; bp_video_offset_536115280=920950192113451032; hit-dyn-v2=1; LIVE_BUVID=AUTO6917143897409041; PVID=2; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTQ4MjE4MTgsImlhdCI6MTcxNDU2MjU1OCwicGx0IjotMX0.DDQpMfdjb4p_tARs5f1WnbW3y8DJa4H4vUjRDZuMqY0; bili_ticket_expires=1714821758; b_lsid=8EC710FB9_18F3C129191; bsource=search_baidu; browser_resolution=1536-264; sid=8m9l3v8i"
 			}
-		},{
-			"key": "玩偶",
-			"name": "玩偶",
-			"type": 3,
-			"api": "csp_Doll",
-			"searchable": 1,
-			"style": {
-				"type": "rect",
-				"ratio": 1.309
-			}
 		},
 		{
 			"key": "MissAV",
