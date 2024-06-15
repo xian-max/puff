@@ -1,5 +1,5 @@
 {
-	"spider": "./custom_spider.jar;md5;61a785a280e8924a72463c455b3e4919",
+	"spider": "./custom_spider.jar;md5;4763816d0638fd8c383f82e04e634d62",
 	"wallpaper": "https://gao.chuqiuyu.tk",
 	"sites": [
 		{
@@ -7,6 +7,14 @@
 			"name": "黄仓",
 			"type": 3,
 			"api": "csp_Hsck",
+			"searchable": 1,
+			"ext": "1"
+		},
+		{
+			"key": "NiNi",
+			"name": "泥巴",
+			"type": 3,
+			"api": "csp_NiNi",
 			"searchable": 1,
 			"ext": "1"
 		},
