@@ -10,7 +10,26 @@
 			"searchable": 1,
 			"ext": "1"
 		},
-		{"key":"keke","name":"🚀可可┃XBPQ","type":3,"api":"csp_XBPQ","ext":{"分类url":"https://www.keke13.com:51111/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html;;ar1","分类":"电影&剧集&动漫&综艺&短剧","分类值":"1&2&3&4&6","副标题":"<divclass=\"v-item-bottom\">&&</div>","数组":"class=\"module-item\"&&</a","图片":"https+://61.147.93.252:15002+data-original=\"&&\"","嗅探词":"m3u8#.m3u8#.mp4#freeok.mp4#/obj/","线路数组":"source-item-label\">&&</span>","线路标题":"&&","导演":"导演:&&</div>","主演":"主演:&&</div>","简介":"<p>&&</p>"}},
+		{
+			"key": "keke",
+			"name": "🚀可可┃XBPQ",
+			"type": 3,
+			"api": "csp_XBPQ",
+			"ext": {
+				"分类url": "https://www.keke13.com:51111/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html;;ar1",
+				"分类": "电影&剧集&动漫&综艺&短剧",
+				"分类值": "1&2&3&4&6",
+				"副标题": "<divclass=\"v-item-bottom\">&&</div>",
+				"数组": "class=\"module-item\"&&</a",
+				"图片": "https+://61.147.93.252:15002+data-original=\"&&\"",
+				"嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
+				"线路数组": "source-item-label\">&&</span>",
+				"线路标题": "&&",
+				"导演": "导演:&&</div>",
+				"主演": "主演:&&</div>",
+				"简介": "<p>&&</p>"
+			}
+		},
 		{
 			"key": "NiNi",
 			"name": "泥巴",
