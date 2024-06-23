@@ -11,18 +11,6 @@
 			"ext": "1"
 		},
 		{
-			"key": "mdr",
-			"name": "mdr┃XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"分类url": "https://mail.mdr-idea.buzz/index.php/vodtype/{cateId}.html",
-				"分类": "国产传媒&日本&国产&中文字幕&欧美",
-				"分类值": "160&2&1&9&5",
-				"嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/"
-			}
-},
-		{
 			"key": "keke",
 			"name": "可可┃XBPQ",
 			"type": 3,
