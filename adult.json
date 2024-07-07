@@ -20,6 +20,15 @@
             "filterable":0
         },
 		{
+			"key":"PTT",
+			"name":"ptt",
+			"type":3,
+			"api":"csp_PTT",
+			"jar":"./jar/custom_spider.jar",
+			"searchable":1,
+			"changeable":1
+		},
+		{
 			"key": "keke",
 			"name": "可可┃XBPQ",
 			"type": 3,
