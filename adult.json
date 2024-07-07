@@ -11,6 +11,15 @@
 			"ext": "1"
 		},
 		{
+            "key": "php_madou",
+            "name": "麻豆",
+            "type": 4,
+            "api": "https://demobe.serv00.net/madou.php",
+            "searchable": 1,
+            "quickSearch":0,
+            "filterable":0
+        },
+		{
 			"key": "keke",
 			"name": "可可┃XBPQ",
 			"type": 3,
