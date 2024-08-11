@@ -49,46 +49,6 @@
 			}
 		},
 		{
-	"key": "51cg",
-	"name": "51cg",
-	"type": 3,
-	"api": "csp_XBPQ",
-	"ext": {
-		"分类url": "https://accuse.12usns3gxe5s.com/category/{cateId}/{catePg}/",
-		"分类": "今日吃瓜$wpcz#吃瓜榜单$mrdg#学生校园$xsxy#热门大瓜$rdsj#看片娱乐$ysyl#必看大瓜$bkdg"
-	}
-},
-		    {
-        "key": "ruituka",
-        "name": "金牌影院┃XBPQ",
-        "type": 3,
-        "api": "csp_XBPQ",
-        "searchable": 1,
-        "quickSearch": 1,
-        "filterable": 1,
-        "ext": {
-            "主页url": "https://www.ruituka.com",
-            "简介": "</label>&&</div>",
-            "影片类型": "tags\">&&director\">",
-            "影片状态": "bottom\">&&</div>",
-            "二次截取":"videoList\":\\[&&\\]",
-            "数组":"{&&}",
-            "图片":"https+://ywxohs.com+obs.gduamoe.com&&\",",
-            "标题": "vodName\":\"&&\"",
-            "副标题": "vodRemarks\":\"&&\"",
-            "链接": "https://www.ruituka.com/detail/+vodId\":&&,",
-            "导演": "导演:</div>&&主演",
-            "主演": "主演:</div>&&别名",
-            "线路标题":"金牌",
-            "播放数组": "listitem\">&&info\">",
-            "播放列表": "<a&&</a>",
-            "倒序": "否",
-            "搜索url":"https://www.ruituka.com/vod/search/{wd}",
-            "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-            "分类url": "https://www.ruituka.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
-        }
-    },
-		{
 			"key": "哔哩",
 			"name": "哔哩",
 			"type": 3,
