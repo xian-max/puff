@@ -48,6 +48,16 @@
 				"简介": "<p>&&</p>"
 			}
 		},
+		{
+	"key": "51cg",
+	"name": "51cg",
+	"type": 3,
+	"api": "csp_XBPQ",
+	"ext": {
+		"分类url": "https://accuse.12usns3gxe5s.com/category/{cateId}/{catePg}/",
+		"分类": "今日吃瓜$wpcz#吃瓜榜单$mrdg#学生校园$xsxy#热门大瓜$rdsj#看片娱乐$ysyl#必看大瓜$bkdg"
+	}
+},
 		    {
         "key": "ruituka",
         "name": "金牌影院┃XBPQ",
@@ -78,14 +88,6 @@
             "分类url": "https://www.ruituka.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}"
         }
     },
-		{
-			"key": "Avss",
-			"name": "Avss",
-			"type": 3,
-			"api": "csp_Avss",
-			"searchable": 1,
-			"ext": "1"
-		},
 		{
 			"key": "哔哩",
 			"name": "哔哩",
