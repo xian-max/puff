@@ -9,16 +9,7 @@
 			"api": "csp_Hsck",
 			"searchable": 1,
 			"ext": "1"
-		},
-		{
-            "key": "php_madou",
-            "name": "麻豆",
-            "type": 4,
-            "api": "https://demobe.serv00.net/madou.php",
-            "searchable": 1,
-            "quickSearch":0,
-            "filterable":0
-        },{
+		},{
             "key": "PPT",
             "name": "❤️‍🔥〔PPT丨XP™〕",
             "type": 3,
@@ -51,15 +42,6 @@
                 "分类url": "https://ptt.red/p/{cateId}?page={catePg}"
             }
         },
-		{
-			"key":"PTT",
-			"name":"ptt",
-			"type":3,
-			"api":"csp_PTT",
-			"jar":"./jar/custom_spider.jar",
-			"searchable":1,
-			"changeable":1
-		},
 		{
 			"key": "keke",
 			"name": "可可┃XBPQ",
@@ -94,7 +76,7 @@
 			"ext": {
 				"json": "./bilibili.json",
 				"type": "帕梅拉#太极拳#广场舞#演唱会",
-				"cookie": "buvid3=F0514846-9CCD-7858-6287-A76FA4A87FAF25614infoc; b_nut=1722104925; CURRENT_FNVAL=4048; _uuid=B10517AD8-8B17-1108F-81072-1475D947F610826159infoc; buvid4=16E20997-FA40-0C41-8C7D-600A9C2D4C9327003-024072718-iARl%2FFOMRJI3N9KkfDfBvZLdZRA%2FQJsjub7DtSS4FhYINgyJhwhp%2B7aiF5Z9Dlz1; buvid_fp=283c3cd1c4d140c89680354a11de3d46; rpdid=0zbfVFZGYN|7bepXyIw|3ao|3w1SxM9W; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; header_theme_version=CLOSE; enable_web_push=DISABLE; home_feed_column=5; CURRENT_QUALITY=80; bp_t_offset_536115280=969999710758633472; SESSDATA=18640fe3%2C1740360377%2C6172a%2A82CjAlqR2dgZsjBuPfK4TZbH5w80UHMrdt3wML8JWLSFDsKU5u7mk8hvyK9EhK9J5PVMcSVkhDYkZKcHhQS21lRjB1bmZUU0ZhdUZnNWtJdEJvMllCTFNjMHlER29NVWp4S3cwS2Fhbm15NGVyWVRyLUNPOE4wZHc1M1ZOc3ZaRnc2OEFmMTNxVURRIIEC; bili_jct=42496675b44661f03faffb8a4addb978; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjUwNjc1OTgsImlhdCI6MTcyNDgwODMzOCwicGx0IjotMX0.cjJWaduWn3i4RkPkUix4Fd9CdkHStwlE9Z-7iY4HTwI; bili_ticket_expires=1725067538; b_lsid=EA1011C47_191A3D85861; bsource=search_bing; bmg_af_switch=1; bmg_src_def_domain=i2.hdslb.com; browser_resolution=1536-214"
+				"cookie": "buvid3=F0514846-9CCD-7858-6287-A76FA4A87FAF25614infoc; b_nut=1722104925; CURRENT_FNVAL=4048; _uuid=B10517AD8-8B17-1108F-81072-1475D947F610826159infoc; buvid4=16E20997-FA40-0C41-8C7D-600A9C2D4C9327003-024072718-iARl%2FFOMRJI3N9KkfDfBvZLdZRA%2FQJsjub7DtSS4FhYINgyJhwhp%2B7aiF5Z9Dlz1; buvid_fp=283c3cd1c4d140c89680354a11de3d46; rpdid=0zbfVFZGYN|7bepXyIw|3ao|3w1SxM9W; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; header_theme_version=CLOSE; enable_web_push=DISABLE; home_feed_column=5; CURRENT_QUALITY=80; bp_t_offset_536115280=971500711634272256; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MjU5NzUwMTIsImlhdCI6MTcyNTcxNTc1MiwicGx0IjotMX0.2-YTdm0L42TfXXfGNbnrdlV4NV-7a1lvzea64TO9WDU; bili_ticket_expires=1725974952; SESSDATA=5176335e%2C1741267833%2Cab625%2A92CjAIdO4M8i3k0p0NccxuickOTZB1O3hOIjmGtlsLSdVsGtHQ_UyRqYU-khRP92RGtbESVkVNUzNmZy1acERwV2Y0UUxDcVdUMmNJYmpIbHlDbUt3dTNkcUdNRXVBNklyUTVqMmxoSmlfSXh2SEZrMVYtWTd6VVJNa2pITWI5a3lLc2VHZTZuNE93IIEC; bili_jct=8a4abec48baf03d03a8ed16306f85ae8; b_lsid=8A2C101C10_191D264047E; bsource=search_bing; bmg_af_switch=1; bmg_src_def_domain=i2.hdslb.com; browser_resolution=1536-188"
 			}
 		},
 		{
