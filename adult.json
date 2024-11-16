@@ -91,6 +91,15 @@
 			}
 		},
 		{
+			"key": "heimuer",
+			"name": "heimuer",
+			"type": 0,
+			"api": "https://xml02.heimuer.xyz/api.php/provide/vod/at/xml",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 0
+		},
+		{
 			"key": "91md",
 			"name": "91md",
 			"type": 1,
