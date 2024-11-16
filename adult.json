@@ -9,58 +9,6 @@
 			"api": "csp_Hsck",
 			"searchable": 1,
 			"ext": "1"
-		},{
-            "key": "PPT",
-            "name": "❤️‍🔥〔PPT丨XP™〕",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "首页": "电视剧$30",
-                "数组": "col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
-                "图片": "src=\"&&\"",
-                "标题": "alt=\"&&\"",
-                "副标题": "class=\"badge badge-success\">&&</span>",
-                "链接": "href=\"/v/&&\"",
-                "链接前缀": "https://ptt.red/",
-                "搜索url": "https://ptt.red/node/search?title={wd}",
-                "搜索数组": "col-4 item p-0 pr-1\">&&class=\"card-body&&</div",
-                "搜索副标题": "class=\"badge badge-success\">&&</span>",
-                "搜索链接": "href=\"/v/&&\"",
-                "搜索链接前缀": "https://ptt.red/",
-                "多线二次截取": "class=\"tabbable fullwidth\">&&</div",
-                "多线数组": "class=\"nav-item\">&&</li",
-                "多线链接": "href=\"&&\"",
-                "多线链接前缀": "https://ptt.red",
-                "多线链接后缀": "",
-                "线路数组": "class=\"nav-item\">&&</li",
-                "线路标题": "title=\"&&\"",
-                "播放数组": "默认--class=\"mb-2 fullwidth\">&&</div>||电影--class=\"nav-item\">&&</li",
-                "播放标题": ">&&</a>",
-                "播放链接": "href=\"&&\"",
-                "直接播放": "体育",
-                "分类": "电影$1#电视剧$3#综艺$2#动漫$4#短剧$66#体育$53#伦理$1/c/33",
-                "分类url": "https://ptt.red/p/{cateId}?page={catePg}"
-            }
-        },
-		{
-			"key": "keke",
-			"name": "可可┃XBPQ",
-			"type": 3,
-			"api": "csp_XBPQ",
-			"ext": {
-				"分类url": "https://www.keke13.com:51111/show/{cateId}-{class}-{area}--{year}-{by}-{catePg}.html;;ar1",
-				"分类": "电影&剧集&动漫&综艺&短剧",
-				"分类值": "1&2&3&4&6",
-				"副标题": "<divclass=\"v-item-bottom\">&&</div>",
-				"数组": "class=\"module-item\"&&</a",
-				"图片": "https+://61.147.93.252:15002+data-original=\"&&\"",
-				"嗅探词": "m3u8#.m3u8#.mp4#freeok.mp4#/obj/",
-				"线路数组": "source-item-label\">&&</span>",
-				"线路标题": "&&",
-				"导演": "导演:&&</div>",
-				"主演": "主演:&&</div>",
-				"简介": "<p>&&</p>"
-			}
 		},
 		{
 			"key": "哔哩",
@@ -118,36 +66,28 @@
 			"filterable": 0
 		},
 		{
-			"key": "91md",
-			"name": "91md",
-			"type": 1,
-			"api": "https://91md.me/api.php/provide/vod/from/mdm3u8/",
-			"tag": "qb,tj,rm",
-			"categories": []
-		},
-		{
-			"key": "lsp",
-			"name": "lsp",
+			"key": "hn",
+			"name": "hn",
 			"type": 0,
-			"api": "https://apilsbzy1.com/api.php/provide/vod/at/xml",
+			"api": "https://www.hongniuzy3.com/api.php/provide/vod/at/xml/",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0
 		},
 		{
-			"key": "奶香",
-			"name": "奶香",
+			"key": "suoni",
+			"name": "suoni",
 			"type": 0,
-			"api": "https://naixxzy.com/api.php/provide/vod/at/xml/",
+			"api": "https://suoniapi.com/api.php/provide/vod/from/snm3u8/at/xml",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0
 		},
 		{
-			"key": "laoya",
-			"name": "laoya",
+			"key": "360",
+			"name": "360",
 			"type": 0,
-			"api": "https://api.apilyzy.com/api.php/provide/vod/at/xml",
+			"api": "https://360zy.com/api.php/seaxml/vod/at/xml ",
 			"searchable": 1,
 			"quickSearch": 1,
 			"filterable": 0
