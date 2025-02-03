@@ -4,7 +4,7 @@
 	"sites": [
 		{
 			"key": "HSCK",
-			"name": "黄仓",
+			"name": "黄仓1",
 			"type": 3,
 			"api": "csp_Hsck",
 			"searchable": 1,
