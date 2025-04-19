@@ -8,7 +8,7 @@
 			"type": 3,
 			"api": "csp_Hsck",
 			"searchable": 1,
-			"ext": "https://cktz2.sbs:8899/?u=http://hsck.cc/&p=/"
+			"ext": "https://cktz1.sbs:8899/?u=http://hsck.cc/&p=/"
 		},
 		{
 			"key": "哔哩",
@@ -24,8 +24,7 @@
 			"ext": {
 				"json": "./bilibili.json",
 				"type": "帕梅拉#太极拳#广场舞#演唱会",
-				"cookie": "
-buvid3=F0514846-9CCD-7858-6287-A76FA4A87FAF25614infoc; b_nut=1722104925; _uuid=B10517AD8-8B17-1108F-81072-1475D947F610826159infoc; buvid4=16E20997-FA40-0C41-8C7D-600A9C2D4C9327003-024072718-iARl%2FFOMRJI3N9KkfDfBvZLdZRA%2FQJsjub7DtSS4FhYINgyJhwhp%2B7aiF5Z9Dlz1; buvid_fp=283c3cd1c4d140c89680354a11de3d46; rpdid=0zbfVFZGYN|7bepXyIw|3ao|3w1SxM9W; header_theme_version=CLOSE; enable_web_push=DISABLE; home_feed_column=5; LIVE_BUVID=AUTO2517264878133259; PVID=3; is-2022-channel=1; browser_resolution=1536-703; CURRENT_QUALITY=80; enable_feed_channel=ENABLE; b_lsid=2C19DB39_196207CB732; bsource=search_bing; bmg_af_switch=1; bmg_src_def_domain=i2.hdslb.com; bili_ticket=eyJhbGciOiJIUzI1NiIsImtpZCI6InMwMyIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NDQ1NjA5NzAsImlhdCI6MTc0NDMwMTcxMCwicGx0IjotMX0.kZcFe-Ww9lGEEi9yQQ8fpjfyq6cw4Lcr7LJZu026dlc; bili_ticket_expires=1744560910; SESSDATA=26d8e0e4%2C1759853835%2Cf2359%2A42CjDmphJiD_3mlEiUB2BSNDnxBZruLpAEnp1KTF42iYj44oQFpFWEr1StJMmEmKdNM2sSVllHQ01DaEpRaldJZVloZ0ExRG9MLTVjRVdac2gyVlBfRlhLRDNsQkoyc0pmNHZqdng1MEQ1YTA4eDFLeHJPM1p4NjNLdVcwTEpHNEN4NzZKazgxTW9nIIEC; bili_jct=aa0458239f68fe56a3f5149babd2d5fb; DedeUserID=536115280; DedeUserID__ckMd5=6915f383eadb263c; CURRENT_FNVAL=2000; sid=hhwvop9m"
+				"cookie": ""
 			}
 		},
 		{
