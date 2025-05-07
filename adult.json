@@ -3,6 +3,14 @@
 	"wallpaper": "https://gao.chuqiuyu.tk",
 	"sites": [
 		{
+      "key": "钵钵鸡",
+      "name": "钵钵鸡",
+      "type": 0,
+      "api": "https://api.bobojizy.me/api.php/provide/vod/at/xml/",
+      "searchable": 1,
+      "changeable": 1
+    },
+		{
 			"key": "HSCK",
 			"name": "黄仓",
 			"type": 3,
