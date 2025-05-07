@@ -8,7 +8,10 @@
       "type": 0,
       "api": "https://api.bobojizy.me/api.php/provide/vod/at/xml/",
       "searchable": 1,
-      "changeable": 1
+      "changeable": 1,
+      "categories": [
+        "水果派","国产-自拍","日本-中文字幕"
+      ]
     },
 		{
 			"key": "HSCK",
