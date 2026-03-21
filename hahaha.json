@@ -1,7 +1,6 @@
 {
   "spider": "./custom_spider.jar;md5;fce70934e1737e04d44fa0d0e9bb62d9",
-  "sites": [
-    {
+  {
       "key": "Hsck",
       "name": "Hsck",
       "type": 3,
@@ -10,5 +9,4 @@
       "quickSearch": 1,
       "ext": "https://770272.space:8899/?u=http://hsck.cc/&p=/"
     }
-  ]
 }
