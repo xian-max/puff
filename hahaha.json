@@ -1,5 +1,5 @@
 {
-  "spider": "./spider.jar;md5;27ca444ec102449926ed32b2adb161e9",
+  "spider": "./jar/spider.jar;md5;27ca444ec102449926ed32b2adb161e9",
   "sites": [
     {
       "key": "Hsck",
