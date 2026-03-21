@@ -1,0 +1,14 @@
+{
+  "spider": "https://您的域名/您的文件名.jar;md5;您刚才计算的MD5值",
+  "sites": [
+    {
+      "key": "my_spider",
+      "name": "我的第一个爬虫",
+      "type": 3,
+      "api": "csp_MyTVSpider",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "https://770272.space:8899/?u=http://hsck.cc/&p=/"
+    }
+  ]
+}
