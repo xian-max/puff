@@ -1,12 +1,57 @@
 {
-  "spider": "./custom_spider.jar;md5;fce70934e1737e04d44fa0d0e9bb62d9",
-  {
-      "key": "Hsck",
-      "name": "Hsck",
-      "type": 3,
-      "api": "csp_Hsck",
-      "searchable": 1,
-      "quickSearch": 1,
-      "ext": "https://770272.space:8899/?u=http://hsck.cc/&p=/"
-    }
+	"spider": "./custom_spider.jar;md5;fce70934e1737e04d44fa0d0e9bb62d9",
+	"wallpaper": "https://gao.chuqiuyu.tk",
+	"sites": [
+		{
+			"key": "HSCK",
+			"name": "黄仓",
+			"type": 3,
+			"api": "csp_Hsck",
+			"searchable": 1,
+			"ext": "https://770272.space:8899/?u=http://hsck.cc/&p=/"
+		}
+	],
+	"lives": [
+		{
+			"name": "live",
+			"type": 0,
+			"url": "./zb.txt",
+			"playerType": 1,
+			"ua": "okhttp/3.15"
+		}
+	],
+	"rules": [
+		{
+			"name": "量子廣告",
+			"hosts": [
+				"vip.lz",
+				"hd.lz"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+			]
+		},
+		{
+			"name": "非凡廣告",
+			"hosts": [
+				"vip.ffzy",
+				"hd.ffzy"
+			],
+			"regex": [
+				"#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+				"#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+			]
+		},
+		{
+			"name": "Avss广告",
+			"hosts": [
+				"jkunbf.com",
+				"jkunbf"
+			],
+			"regex": [
+				"13.24"
+			]
+		}
+	]
 }
