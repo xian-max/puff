@@ -9,44 +9,21 @@ class DemoSpider extends Spider {
 
 
     async homeContent(filter) {
-          const res = await this.net.req(
-            "https://hongguoduanju.com/",
-            {
-              method: "GET",
-              timeout: 15000
-            }
-          );
-        
-          const html = res.content || res.data || "";
-        
-          // 找出首页前 5 个短剧详情链接
-          const regex = /<a\b[^>]*href=["']([^"']*\/detail\?series_id=[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
-        
-          const list = [];
-          let match;
-        
-          while ((match = regex.exec(html)) !== null && list.length < 5) {
-            const href = match[1];
-            const inner = match[2];
-        
-            // 去掉 HTML 标签，获取文字
-            const title = inner
-              .replace(/<[^>]+>/g, "")
-              .replace(/&nbsp;/g, " ")
-              .trim();
-        
-            list.push({
-              name: title || "暂未提取到标题",
-              url: href.startsWith("http")
-                ? href
-                : "https://hongguoduanju.com" + href
-            });
-          }
-        
-          return {
-            list: list
-          };
-        }
+  const url = "https://hongguoduanju.com/detail?series_id=7701935931787316286";
+
+  const res = await this.net.req(url, {
+    method: "GET",
+    timeout: 15000
+  });
+
+  const html = res.content || res.data || "";
+
+  return {
+    code: res.code,
+    length: html.length,
+    preview: html.substring(0, 3000)
+  };
+}
 
 
     // 首页推荐
