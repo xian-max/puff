@@ -8,7 +8,7 @@ class DemoSpider extends Spider {
     }
 
     async homeContent(filter) {
-        return JSON.stringify({
+        return {
             class: [
                 {
                     type_id: "movie",
@@ -20,13 +20,13 @@ class DemoSpider extends Spider {
                 }
             ],
             list: []
-        });
+        };
     }
 
     async homeVideoContent() {
-        return JSON.stringify({
+        return {
             list: []
-        });
+        };
     }
 
 }
