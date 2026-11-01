@@ -12,12 +12,20 @@ class DemoSpider extends Spider {
         return {
             class: [
                 {
-                    type_id: "movie",
-                    type_name: "电影"
+                    type_id: "real-drama",
+                    type_name: "真人剧"
                 },
                 {
-                    type_id: "tv",
-                    type_name: "电视剧"
+                    type_id: "comic-drama",
+                    type_name: "漫剧"
+                },
+                {
+                    type_id: "ai-drama",
+                    type_name: "AI剧"
+                },
+                {
+                    type_id: "comic",
+                    type_name: "漫画"
                 }
             ],
             list: []
