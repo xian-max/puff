@@ -107,7 +107,7 @@ class DemoSpider extends Spider {
     async playerContent(flag, id, vipFlags) {
         return {
             parse: 0,
-            url: id,
+            url: "https://vjs.zencdn.net/v/oceans.mp4",
             header: {
                 "User-Agent": "Mozilla/5.0"
             }
