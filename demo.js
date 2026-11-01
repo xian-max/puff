@@ -7,44 +7,34 @@ class DemoSpider extends Spider {
         console.log("Spider 初始化成功");
     }
 
-    async homeContent(filter) {
-    const response = await this.net.req(
-        "https://hongguoduanju.com/",
-        {
-            method: "GET",
-            timeout: 15000
-        }
-    );
+   async homeContent(filter) {
+        const response = await this.net.req(
+            "https://hongguoduanju.com/",
+            {
+                method: "GET",
+                timeout: 15000
+            }
+        );
+    
+        const html = response.content || "";
+    
+        const titleMatch = html.match(
+            /<title[^>]*>([\s\S]*?)<\/title>/i
+        );
+    
+        const descMatch = html.match(
+            /<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)/i
+        );
+    
+        return {
+            code: response.code,
+            title: titleMatch ? titleMatch[1] : "",
+            description: descMatch ? descMatch[1] : "",
+            length: html.length
+        };
+    }
 
-    const html = response.content || "";
 
-    return {
-        code: response.code,
-        error: response.error || "",
-        length: html.length,
-        preview: html.substring(0, 500)
-    };
-}
-
-    // 测试真实网页请求
-async testRequest() {
-    const response = await this.net.req(
-        "https://hongguoduanju.com/",
-        {
-            method: "GET",
-            timeout: 15000
-        }
-    );
-
-    const html = response.content || "";
-
-    return {
-        code: response.code,
-        error: response.error || "",
-        length: html.length,
-        preview: html.substring(0, 500)
-    };
-}
 
     // 首页推荐
     async homeVideoContent() {
