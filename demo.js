@@ -79,7 +79,6 @@ class DemoSpider extends Spider {
         };
     }
 
-    
     // 详情
     async detailContent(ids) {
         return {
@@ -96,24 +95,28 @@ class DemoSpider extends Spider {
                     vod_director: "测试导演",
                     vod_content: "这是一个 Spider 详情接口测试。",
 
+                    // 播放线路和播放地址
                     vod_play_from: "测试线路",
-                    vod_play_url: "第一集$test001"
+                    vod_play_url:
+                        "第一集$https://vjs.zencdn.net/v/oceans.mp4"
                 }
             ]
         };
     }
 
-
+    // 播放
     async playerContent(flag, id, vipFlags) {
+        console.log("播放线路：", flag);
+        console.log("播放地址：", id);
+
         return {
             parse: 0,
-            url: "https://vjs.zencdn.net/v/oceans.mp4",
+            url: id,
             header: {
                 "User-Agent": "Mozilla/5.0"
             }
         };
     }
-
 
 }
 
