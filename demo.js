@@ -7,30 +7,24 @@ class DemoSpider extends Spider {
         console.log("Spider 初始化成功");
     }
 
-    // 首页分类
     async homeContent(filter) {
-        return {
-            class: [
-                {
-                    type_id: "real-drama",
-                    type_name: "真人剧"
-                },
-                {
-                    type_id: "comic-drama",
-                    type_name: "漫剧"
-                },
-                {
-                    type_id: "ai-drama",
-                    type_name: "AI剧"
-                },
-                {
-                    type_id: "comic",
-                    type_name: "漫画"
-                }
-            ],
-            list: []
-        };
-    }
+    const response = await this.net.req(
+        "https://hongguoduanju.com/",
+        {
+            method: "GET",
+            timeout: 15000
+        }
+    );
+
+    const html = response.content || "";
+
+    return {
+        code: response.code,
+        error: response.error || "",
+        length: html.length,
+        preview: html.substring(0, 500)
+    };
+}
 
     // 测试真实网页请求
 async testRequest() {
