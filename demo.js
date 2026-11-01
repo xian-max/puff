@@ -7,32 +7,23 @@ class DemoSpider extends Spider {
         console.log("Spider 初始化成功");
     }
 
-   async homeContent(filter) {
-        const response = await this.net.req(
-            "https://hongguoduanju.com/",
-            {
-                method: "GET",
-                timeout: 15000
-            }
-        );
-    
-        const html = response.content || "";
-    
-        const titleMatch = html.match(
-            /<title[^>]*>([\s\S]*?)<\/title>/i
-        );
-    
-        const descMatch = html.match(
-            /<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)/i
-        );
-    
-        return {
-            code: response.code,
-            title: titleMatch ? titleMatch[1] : "",
-            description: descMatch ? descMatch[1] : "",
-            length: html.length
-        };
-    }
+async homeContent(filter) {
+  const url = "https://hongguoduanju.com/detail?series_id=7701935931787316286";
+
+  const res = await this.net.req(url, {
+    method: "GET",
+    timeout: 15000
+  });
+
+  const html = res.content || res.data || "";
+
+  return {
+    test: "DETAIL_PAGE_TEST",
+    code: res.code,
+    length: html.length,
+    preview: html.substring(0, 3000)
+  };
+}
 
 
 
