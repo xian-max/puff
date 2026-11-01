@@ -32,6 +32,26 @@ class DemoSpider extends Spider {
         };
     }
 
+    // 测试真实网页请求
+async testRequest() {
+    const response = await this.net.req(
+        "https://hongguoduanju.com/",
+        {
+            method: "GET",
+            timeout: 15000
+        }
+    );
+
+    const html = response.content || "";
+
+    return {
+        code: response.code,
+        error: response.error || "",
+        length: html.length,
+        preview: html.substring(0, 500)
+    };
+}
+
     // 首页推荐
     async homeVideoContent() {
         return {
