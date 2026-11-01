@@ -5,7 +5,7 @@
       "key": "myspider",
       "name": "我的JS测试源",
       "type": 3,
-      "api": "./demo.js",
+      "api": "./demo.js?123",
       "ext": {},
       "searchable": 1,
       "quickSearch": 1,
