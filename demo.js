@@ -104,6 +104,17 @@ class DemoSpider extends Spider {
     }
 
 
+    async playerContent(flag, id, vipFlags) {
+        return {
+            parse: 0,
+            url: id,
+            header: {
+                "User-Agent": "Mozilla/5.0"
+            }
+        };
+    }
+
+
 }
 
 export default DemoSpider;
