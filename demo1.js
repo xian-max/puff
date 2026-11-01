@@ -7,44 +7,40 @@ class DemoSpider extends Spider {
         console.log("Spider 初始化成功");
     }
 
+
     async homeContent(filter) {
-    const response = await this.net.req(
-        "https://hongguoduanju.com/",
-        {
-            method: "GET",
-            timeout: 15000
+        const response = await this.net.req(
+            "https://hongguoduanju.com/",
+            {
+                method: "GET",
+                timeout: 15000
+            }
+        );
+    
+        const html = response.content || "";
+    
+        // 提取网页中的链接
+        const links = [];
+        const regex = /<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi;
+    
+        let match;
+        while ((match = regex.exec(html)) !== null) {
+            const href = match[1];
+    
+            if (href && !href.startsWith("#")) {
+                links.push(href);
+            }
+    
+            if (links.length >= 30) break;
         }
-    );
+    
+        return {
+            code: response.code,
+            linkCount: links.length,
+            links: links
+        };
+    }
 
-    const html = response.content || "";
-
-    return {
-        code: response.code,
-        error: response.error || "",
-        length: html.length,
-        preview: html.substring(0, 500)
-    };
-}
-
-    // 测试真实网页请求
-async testRequest() {
-    const response = await this.net.req(
-        "https://hongguoduanju.com/",
-        {
-            method: "GET",
-            timeout: 15000
-        }
-    );
-
-    const html = response.content || "";
-
-    return {
-        code: response.code,
-        error: response.error || "",
-        length: html.length,
-        preview: html.substring(0, 500)
-    };
-}
 
     // 首页推荐
     async homeVideoContent() {
