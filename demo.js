@@ -79,6 +79,31 @@ class DemoSpider extends Spider {
         };
     }
 
+    
+    // 详情
+    async detailContent(ids) {
+        return {
+            list: [
+                {
+                    vod_id: ids[0],
+                    vod_name: "测试电影详情",
+                    vod_pic: "",
+                    type_name: "电影",
+                    vod_year: "2026",
+                    vod_area: "日本",
+                    vod_remarks: "高清",
+                    vod_actor: "测试演员",
+                    vod_director: "测试导演",
+                    vod_content: "这是一个 Spider 详情接口测试。",
+
+                    vod_play_from: "测试线路",
+                    vod_play_url: "第一集$test001"
+                }
+            ]
+        };
+    }
+
+
 }
 
 export default DemoSpider;
