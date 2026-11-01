@@ -9,37 +9,44 @@ class DemoSpider extends Spider {
 
 
     async homeContent(filter) {
-        const response = await this.net.req(
+          const res = await this.net.req(
             "https://hongguoduanju.com/",
             {
-                method: "GET",
-                timeout: 15000
+              method: "GET",
+              timeout: 15000
             }
-        );
-    
-        const html = response.content || "";
-    
-        // 提取网页中的链接
-        const links = [];
-        const regex = /<a\b[^>]*href=["']([^"']+)["'][^>]*>/gi;
-    
-        let match;
-        while ((match = regex.exec(html)) !== null) {
+          );
+        
+          const html = res.content || res.data || "";
+        
+          // 找出首页前 5 个短剧详情链接
+          const regex = /<a\b[^>]*href=["']([^"']*\/detail\?series_id=[^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+        
+          const list = [];
+          let match;
+        
+          while ((match = regex.exec(html)) !== null && list.length < 5) {
             const href = match[1];
-    
-            if (href && !href.startsWith("#")) {
-                links.push(href);
-            }
-    
-            if (links.length >= 30) break;
+            const inner = match[2];
+        
+            // 去掉 HTML 标签，获取文字
+            const title = inner
+              .replace(/<[^>]+>/g, "")
+              .replace(/&nbsp;/g, " ")
+              .trim();
+        
+            list.push({
+              name: title || "暂未提取到标题",
+              url: href.startsWith("http")
+                ? href
+                : "https://hongguoduanju.com" + href
+            });
+          }
+        
+          return {
+            list: list
+          };
         }
-    
-        return {
-            code: response.code,
-            linkCount: links.length,
-            links: links
-        };
-    }
 
 
     // 首页推荐
