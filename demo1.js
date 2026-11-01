@@ -8,7 +8,7 @@ class DemoSpider extends Spider {
     }
 
 
-    async homeContent(filter) {
+async homeContent(filter) {
   const url = "https://hongguoduanju.com/detail?series_id=7701935931787316286";
 
   const res = await this.net.req(url, {
@@ -18,10 +18,27 @@ class DemoSpider extends Spider {
 
   const html = res.content || res.data || "";
 
+  function getMeta(name) {
+    const reg = new RegExp(
+      '<meta[^>]*(?:property|name)=["\\']' +
+      name +
+      '["\\'][^>]*content=["\\']([^"\\']*)',
+      "i"
+    );
+
+    const match = html.match(reg);
+    return match ? match[1] : "";
+  }
+
+  const title = html.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+
   return {
     code: res.code,
     length: html.length,
-    preview: html.substring(0, 3000)
+    title: title ? title[1].trim() : "",
+    ogTitle: getMeta("og:title"),
+    ogImage: getMeta("og:image"),
+    description: getMeta("description")
   };
 }
 
